@@ -122,5 +122,5 @@ def main():
             st.success("You have successfully created a valid Account")
             st.info("Go to Login Menu to login")
            
-if __name__ == '__main__':
-    main()
+#if __name__ == '__main__':
+    #main()
