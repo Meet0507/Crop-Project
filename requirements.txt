@@ -4,5 +4,4 @@ streamlit
 pillow
 scikit-learn
 nltk
-pickle
 bz2
