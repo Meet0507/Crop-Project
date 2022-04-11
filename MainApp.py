@@ -60,12 +60,12 @@ def main():
                 activities=['K-Nearest Neighbors','Liner SVM','Decision Tree','Random Forest','Navier Bayers','ExtraTreesClassifier']
                 option=st.selectbox('Which model you use?',activities)
                 N=float(st.slider('N Value', 0.0, 140.0))
-                P=float(st.slider('N Value', 5.0, 145.0))
-                K=float(st.slider('N Value', 5.0, 205.0))
-                temp=float(st.slider('N Value', 8.0, 44.0))
-                Hum=float(st.slider('N Value', 14.0, 100.0))
-                Ph=float(st.slider('N Value', 3.5, 10.0))
-                Rain=float(st.slider('N Value', 20.0, 299.0))
+                P=float(st.slider('P Value', 5.0, 145.0))
+                K=float(st.slider('K Value', 5.0, 205.0))
+                temp=float(st.slider('temprature Value', 8.0, 44.0))
+                Hum=float(st.slider('humidity Value', 14.0, 100.0))
+                Ph=float(st.slider('ph Value', 3.5, 10.0))
+                Rain=float(st.slider('rainfall Value', 20.0, 299.0))
                 sfile = bz2.BZ2File("All Model", 'r')
                 model=pickle.load(sfile)
                 if st.button("Predict"):
