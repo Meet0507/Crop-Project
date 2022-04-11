@@ -5,7 +5,6 @@ from PIL import Image
 import pickle
 import bz2
 import numpy as np
-import sklearn
 
 
 def make_hashes(password):   
