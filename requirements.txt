@@ -3,5 +3,3 @@ pandas
 streamlit
 pillow
 scikit-learn
-nltk
-bz2
